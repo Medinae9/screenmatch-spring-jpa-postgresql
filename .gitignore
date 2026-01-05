@@ -1,0 +1,34 @@
+# Ignorar archivos compilados
+target/
+bin/
+*.class
+
+# Ignorar configuraciones de IDE
+*.iml
+.idea/
+.vscode/
+
+# Ignorar logs
+*.log
+
+# Ignorar archivos temporales del sistema
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignorar dependencias descargadas
+*.jar
+*.war
+*.ear
+
+# Ignorar configuraciones sensibles
+.env
+application.properties
+application.yml
+
+# Ignorar archivos de Maven Wrapper si no los necesitas
+.mvn/
+mvnw
+mvnw.cmd
