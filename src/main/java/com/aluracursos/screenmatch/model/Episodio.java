@@ -10,7 +10,7 @@ import java.time.format.DateTimeParseException;
 public class Episodio {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long Id;
+    private Long id;
     private Integer temporada;
     private String titulo;
     private Integer numeroEpisodio;

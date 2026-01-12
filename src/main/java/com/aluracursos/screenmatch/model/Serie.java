@@ -11,7 +11,7 @@ import java.util.OptionalDouble;
 public class Serie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long Id;
+    private Long Id;
     @Column(unique = true)
     private String titulo;
     private Integer totalTemporadas;
@@ -40,7 +40,7 @@ public class Serie {
     @Override
     public String toString() {
         return "genero=" + genero +
-                "titulo='" + titulo + '\'' +
+                ", titulo='" + titulo + '\'' +
                 ", totalTemporadas=" + totalTemporadas +
                 ", evaluacion=" + evaluacion +
                 ", poster='" + poster + '\'' +
